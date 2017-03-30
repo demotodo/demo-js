@@ -3,3 +3,4 @@ function escapeRegExp(str) {
 }
 
 console.log(escapeRegExp("/path/to/resource.html?query"));
+// \/path\/to\/resource\.html\?query
