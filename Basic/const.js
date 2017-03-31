@@ -1,7 +1,9 @@
 "use strict";
 
-if (true) {
-    const MAX = 5;
-}
+const foo = {};
 
-console.log(MAX);   // ReferenceError
+foo.prop = 123;
+
+console.log(foo.prop);
+
+// foo = {};   // TypeError

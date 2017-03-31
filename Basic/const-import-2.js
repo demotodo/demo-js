@@ -1,6 +1,6 @@
 "use strict";
 
-import {A, B} from './const-4-module'
+import {A, B} from './const-export'
 
 console.log(A);
 console.log(B);
